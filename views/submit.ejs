@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit</title>
+</head>
+<body>
+    <h1>submitted</h1>
+    <%for(var i=0; i<result.length; i++) { %>
+        <h2>name : <%= result[i].name%></h2>
+        <h2>contact number : <%= result[i].contact%></h2>
+        <h2>email : <%= result[i].email%></h2>
+        <h2>text : <%= result[i].text%></h2>
+        <br>
+    <%}%>
+</body>
+</html>
